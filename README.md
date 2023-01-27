@@ -1,2 +1,2 @@
 # Modern-Python-Pipeline-Test
-Testing out "modern" TM Python packages.
+Testing out "modern" TM Python packages and pipeline.
