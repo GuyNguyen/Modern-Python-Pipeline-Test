@@ -1,4 +1,5 @@
 [![Linting](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/lint.yml)
+[![Testing](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/test.yml)
 
 # Modern-Python-Pipeline-Test
 Testing out "modern" TM Python packages and pipeline. Following this guide:
