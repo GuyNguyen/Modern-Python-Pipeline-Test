@@ -5,45 +5,11 @@ on:
   pull_request:
     branches:
       - dev
+      - lint-ci
   push:
     branches:
       - dev
-
-jobs:
-  Linting:
-    runs-on: ubuntu-latest
-    steps:
-      # check-out repo
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
-      # install poetry
-      - name: Install poetry
-        run: pipx install poetry
-      # set-up python with cache
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-          cache: 'poetry'
-      # install requirements (including dev dependencies)
-      - name: Install requirements
-        run: poetry install --only lint
-      # run linters
-      - name: Run linters
-        run: |
-          set -o pipefail
-          poetry run make lint---
-name: Linting
-
-on:
-  pull_request:
-    branches:
-      - main
-  push:
-    branches:
-      - main
+      - lint-ci
 
 jobs:
   Linting:
