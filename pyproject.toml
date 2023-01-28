@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Guy Nguyen-Phuoc <nguyen46@hawaii.edu>"]
 readme = "README.md"
-packages = [{include = "modern_python_pipeline_test"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
