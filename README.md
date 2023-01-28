@@ -1,5 +1,4 @@
 [![Linting](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/lint.yml/badge.svg?branch=dev)](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/lint.yml)
-
 [![Linting](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/lint.yml/badge.svg?branch=main)](https://github.com/GuyNguyen/Modern-Python-Pipeline-Test/actions/workflows/lint.yml)
 
 # Modern-Python-Pipeline-Test
