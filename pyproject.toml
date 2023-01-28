@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "modern-python-pipeline-test"
+name = "modern_python_pipeline_test"
 version = "0.1.0"
 description = ""
 authors = ["Guy Nguyen-Phuoc <nguyen46@hawaii.edu>"]
