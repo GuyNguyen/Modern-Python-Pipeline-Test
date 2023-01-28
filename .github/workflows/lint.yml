@@ -4,12 +4,12 @@ name: Linting
 on:
   pull_request:
     branches:
+      - main
       - dev
-      - lint-ci
   push:
     branches:
+      - main
       - dev
-      - lint-ci
 
 jobs:
   Linting:
