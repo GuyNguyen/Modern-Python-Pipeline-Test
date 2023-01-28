@@ -22,10 +22,17 @@ ruff = "^0.0.236"
 respx = "^0.20.1"
 pytest-asyncio = "^0.20.3"
 trio = "^0.22.0"
+hypothesis = "^6.65.2"
+pytest-cov = "^4.0.0"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-p no:cacheprovider"
+
+[tool.coverage.report]
+exclude_lines = [
+    'if __name__ == "__main__":'
+]
 
 [build-system]
 requires = ["poetry-core"]
