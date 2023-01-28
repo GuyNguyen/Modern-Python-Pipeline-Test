@@ -21,6 +21,9 @@ unit-tests:
 	@poetry run pytest
 
 unit-tests-cov:
+	@poetry run pytest --cov=src --cov-report term-missing --cov-report=html
+
+unit-tests-cov-fail:
 	@poetry run pytest --cov=src --cov-report term-missing --cov-report=html --cov-fail-under=80 --junitxml=pytest.xml | tee pytest-coverage.txt
 
 clean-cov:
